@@ -45,3 +45,34 @@ console.clear();
 // numbers = [6]; // Error
 
 // console.log(numbers);
+
+// ======================== DATA TYPES
+// PRIMITIVE TYPES (six)
+// String 
+const name = 'John Doe';
+console.log(typeof name); // String
+// Number
+const age = 22;
+console.log(typeof age); // Number
+// Boolean
+const hasKids = true;
+console.log(typeof hasKids); 
+// Null
+const car = null;
+console.log(typeof car); // object
+// Undefined
+let test;
+console.log(typeof test);
+// Symbols
+let sym = Symbol();
+console.log(typeof sym);
+
+// REFERENCE TYPES - Objects
+// Array
+const hobbies = ['movies']; // Object
+// Object literals
+const address = {
+  city: 'Saratov'
+}; // Object
+const today = new Date(); // Object
+console.log(typeof today);
